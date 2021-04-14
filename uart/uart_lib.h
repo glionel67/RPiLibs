@@ -9,16 +9,12 @@
 #ifndef UART_LIB_H
 #define UART_LIB_H
 
-#include <termios.h>
 #include <stdio.h>
-#include <fcntl.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <unistd.h>
-#include <time.h>
-#include <signal.h>
-#include <sys/signal.h>
-#include <pthread.h>
+#include <fcntl.h>
+#include <termios.h>
 
 ///
 /// \fn init_uart
